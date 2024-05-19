@@ -1,0 +1,303 @@
+[
+    {
+      "country": "Bangladesh",
+      "tourist_spots": [
+        {
+          "id": 1,
+          "name": "Sundarban",
+          "image": "sundarban.jpg",
+          "average_cost": "$300",
+          "total_visitors_per_year": 500000,
+          "travel_time": "3 days",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 2,
+          "name": "Cox’s Bazar",
+          "image": "coxs_bazar.jpg",
+          "average_cost": "$200",
+          "total_visitors_per_year": 1000000,
+          "travel_time": "1 week",
+          "seasonality": "October - March"
+        },
+        {
+          "id": 3,
+          "name": "Rangamati",
+          "image": "rangamati.jpg",
+          "average_cost": "$150",
+          "total_visitors_per_year": 200000,
+          "travel_time": "4 days",
+          "seasonality": "October - February"
+        },
+        {
+          "id": 4,
+          "name": "Bandarban",
+          "image": "bandarban.jpg",
+          "average_cost": "$250",
+          "total_visitors_per_year": 300000,
+          "travel_time": "5 days",
+          "seasonality": "November - March"
+        },
+        {
+          "id": 5,
+          "name": "Saint Martin’s Island",
+          "image": "saint_martins_island.jpg",
+          "average_cost": "$180",
+          "total_visitors_per_year": 150000,
+          "travel_time": "1 week",
+          "seasonality": "October - February"
+        }
+      ]
+    },
+    {
+      "country": "Thailand",
+      "tourist_spots": [
+        {
+          "id": 6,
+          "name": "Bangkok",
+          "image": "bangkok.jpg",
+          "average_cost": "$500",
+          "total_visitors_per_year": 2000000,
+          "travel_time": "1 week",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 7,
+          "name": "Chiang Mai",
+          "image": "chiang_mai.jpg",
+          "average_cost": "$400",
+          "total_visitors_per_year": 800000,
+          "travel_time": "5 days",
+          "seasonality": "November - March"
+        },
+        {
+          "id": 8,
+          "name": "Ayutthaya",
+          "image": "ayutthaya.jpg",
+          "average_cost": "$250",
+          "total_visitors_per_year": 400000,
+          "travel_time": "3 days",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 9,
+          "name": "Phuket",
+          "image": "phuket.jpg",
+          "average_cost": "$600",
+          "total_visitors_per_year": 1500000,
+          "travel_time": "1 week",
+          "seasonality": "November - March"
+        },
+        {
+          "id": 10,
+          "name": "Phi Phi Islands",
+          "image": "phi_phi_islands.jpg",
+          "average_cost": "$700",
+          "total_visitors_per_year": 1200000,
+          "travel_time": "1 week",
+          "seasonality": "November - March"
+        }
+      ]
+    },
+    {
+      "country": "Indonesia",
+      "tourist_spots": [
+        {
+          "id": 11,
+          "name": "Bali",
+          "image": "bali.jpg",
+          "average_cost": "$400",
+          "total_visitors_per_year": 3000000,
+          "travel_time": "1 week",
+          "seasonality": "May - September"
+        },
+        {
+          "id": 12,
+          "name": "Borobudur Temple",
+          "image": "borobudur_temple.jpg",
+          "average_cost": "$300",
+          "total_visitors_per_year": 1000000,
+          "travel_time": "3 days",
+          "seasonality": "May - September"
+        },
+        {
+          "id": 13,
+          "name": "Komodo National Park",
+          "image": "komodo_national_park.jpg",
+          "average_cost": "$600",
+          "total_visitors_per_year": 500000,
+          "travel_time": "1 week",
+          "seasonality": "May - September"
+        },
+        {
+          "id": 14,
+          "name": "Raja Ampat Islands",
+          "image": "raja_ampat_islands.jpg",
+          "average_cost": "$700",
+          "total_visitors_per_year": 400000,
+          "travel_time": "1 week",
+          "seasonality": "November - April"
+        },
+        {
+          "id": 15,
+          "name": "Yogyakarta",
+          "image": "yogyakarta.jpg",
+          "average_cost": "$350",
+          "total_visitors_per_year": 2000000,
+          "travel_time": "1 week",
+          "seasonality": "May - September"
+        }
+      ]
+    },
+    {
+      "country": "Malaysia",
+      "tourist_spots": [
+        {
+          "id": 16,
+          "name": "Kuala Lumpur",
+          "image": "kuala_lumpur.jpg",
+          "average_cost": "$450",
+          "total_visitors_per_year": 2500000,
+          "travel_time": "1 week",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 17,
+          "name": "Langkawi",
+          "image": "langkawi.jpg",
+          "average_cost": "$550",
+          "total_visitors_per_year": 1000000,
+          "travel_time": "1 week",
+          "seasonality": "November - March"
+        },
+        {
+          "id": 18,
+          "name": "Penang",
+          "image": "penang.jpg",
+          "average_cost": "$400",
+          "total_visitors_per_year": 1500000,
+          "travel_time": "1 week",
+          "seasonality": "November - March"
+        },
+        {
+          "id": 19,
+          "name": "Cameron Highlands",
+          "image": "cameron_highlands.jpg",
+          "average_cost": "$300",
+          "total_visitors_per_year": 800000,
+          "travel_time": "5 days",
+          "seasonality": "November - March"
+        },
+        {
+          "id": 20,
+          "name": "Taman Negara National Park",
+          "image": "taman_negara_national_park.jpg",
+          "average_cost": "$350",
+          "total_visitors_per_year": 600000,
+          "travel_time": "1 week",
+          "seasonality": "November - March"
+        }
+      ]
+    },
+    {
+      "country": "Vietnam",
+      "tourist_spots": [
+        {
+          "id": 21,
+          "name": "Ha Long Bay",
+          "image": "ha_long_bay.jpg",
+          "average_cost": "$400",
+          "total_visitors_per_year": 2000000,
+          "travel_time": "1 week",
+          "seasonality": "October - March"
+        },
+        {
+          "id": 22,
+          "name": "Ho Chi Minh City",
+          "image": "ho_chi_minh_city.jpg",
+          "average_cost": "$500",
+          "total_visitors_per_year": 1500000,
+          "travel_time": "1 week",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 23,
+          "name": "Hoi An Ancient Town",
+          "image": "hoi_an_ancient_town.jpg",
+          "average_cost": "$350",
+          "total_visitors_per_year": 1000000,
+          "travel_time": "1 week",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 24,
+          "name": "Phong Nha Caves",
+          "image": "phong_nha_caves.jpg",
+          "average_cost": "$300",
+          "total_visitors_per_year": 500000,
+          "travel_time": "3 days",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 25,
+          "name": "Mekong Delta",
+          "image": "mekong_delta.jpg",
+          "average_cost": "$200",
+          "total_visitors_per_year": 1000000,
+          "travel_time": "4 days",
+          "seasonality": "November - February"
+        }
+      ]
+    },
+    {
+      "country": "Cambodia",
+      "tourist_spots": [
+        {
+          "id": 26,
+          "name": "Angkor Wat",
+          "image": "angkor_wat.jpg",
+          "average_cost": "$400",
+          "total_visitors_per_year": 2500000,
+          "travel_time": "1 week",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 27,
+          "name": "Siem Reap",
+          "image": "siem_reap.jpg",
+          "average_cost": "$300",
+          "total_visitors_per_year": 1200000,
+          "travel_time": "1 week",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 28,
+          "name": "Phnom Penh",
+          "image": "phnom_penh.jpg",
+          "average_cost": "$250",
+          "total_visitors_per_year": 800000,
+          "travel_time": "1 week",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 29,
+          "name": "Kep",
+          "image": "kep.jpg",
+          "average_cost": "$200",
+          "total_visitors_per_year": 500000,
+          "travel_time": "4 days",
+          "seasonality": "November - February"
+        },
+        {
+          "id": 30,
+          "name": "Bokor National Park",
+          "image": "bokor_national_park.jpg",
+          "average_cost": "$300",
+          "total_visitors_per_year": 300000,
+          "travel_time": "3 days",
+          "seasonality": "November - February"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,29 @@
+import { useEffect, useState } from "react";
+import AllTouristsSports from "../AllTouristsSports/AllTouristsSports";
+
+const AllTouristsSport = () => {
+    const [sport, setSport] = useState([])
+    useEffect(() => {
+        fetch('place.json')
+            .then(res => res.json())
+            .then(data => setSport(data))
+    }, [])
+
+    return (
+       
+        <div className="mt-10 mb-8 max-w-6xl mx-auto">
+        <h2 className="text-4xl font-bold text-center">All Tourists Sports</h2>
+        <p className="text-center mb-8">Asia Exploratorium invites you to uncover the heart and soul of Asia. Our travel guides are packed with insider tips, must-visit destinations, and cultural highlights to enhance your travel experiences.</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {
+            sport.map((cook, idx) => <AllTouristsSports key={idx} cook={cook}></AllTouristsSports>)
+
+        }
+        </div>
+    </div>
+
+
+    );
+};
+
+export default AllTouristsSport;
