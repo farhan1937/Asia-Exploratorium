@@ -5,7 +5,7 @@
         {
           "id": 1,
           "name": "Sundarban",
-          "image": "sundarban.jpg",
+          "image": "https://i.ibb.co/vZQSQrd/istockphoto-1137892510-612x612.jpg",
           "average_cost": "$300",
           "total_visitors_per_year": 500000,
           "travel_time": "3 days",
@@ -14,7 +14,7 @@
         {
           "id": 2,
           "name": "Cox’s Bazar",
-          "image": "coxs_bazar.jpg",
+          "image": "https://i.ibb.co/CP6xcgq/beauty-saint-martin-island-coxs-600nw-2308207335.webp",
           "average_cost": "$200",
           "total_visitors_per_year": 1000000,
           "travel_time": "1 week",
@@ -23,7 +23,7 @@
         {
           "id": 3,
           "name": "Rangamati",
-          "image": "rangamati.jpg",
+          "image": "https://i.ibb.co/JCn3RqY/360-F-336712931-9o-C9-QXONCo-Xpno-F5-Us34-Gf-SCvy5v-WZ6-W.jpg",
           "average_cost": "$150",
           "total_visitors_per_year": 200000,
           "travel_time": "4 days",
@@ -32,7 +32,7 @@
         {
           "id": 4,
           "name": "Bandarban",
-          "image": "bandarban.jpg",
+          "image": "https://i.ibb.co/VVvr8Lv/bandarban-place-immense-natural-beauty-600nw-2303570883.webp",
           "average_cost": "$250",
           "total_visitors_per_year": 300000,
           "travel_time": "5 days",
