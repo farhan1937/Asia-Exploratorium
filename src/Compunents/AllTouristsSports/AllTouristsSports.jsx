@@ -11,13 +11,13 @@ const {tourist_spots} = cook;
             <figure className="px-4 pt-4">
                 <img src={sport.image} alt="Shoes" className="rounded-xl" />
             </figure>
-            <div className="card-body items-center text-center">
+            <div className="card-body ">
                 <h2>{sport.country}</h2>
-                <h2 className="card-title text-[#1DD100] text-3xl">{sport.name}</h2>
-                <p className="font-semibold ">{sport.average_cost}</p>
-                <p className="w-full text-[#333333a7]">{sport.total_visitors_per_year}</p>
-                <p className="w-full text-[#333333a7]">{sport.travel_time}</p>
-                <p className="w-full text-[#333333a7]">{sport.seasonality}</p>
+                <h2 className="card-title text-[#6dedf6] text-2xl"><span className="font-semibold text-black">Name :</span> {sport.name}</h2>
+                <p className=" "><span className="font-semibold gap-4 ">Avarage-Cost :  </span>{sport.average_cost}</p>
+                <p className="w-full text-[#333333a7]"><span className="font-semibold">Total Visitors :  </span>{sport.total_visitors_per_year}</p>
+                <p className="w-full text-[#333333a7]"><span className="font-semibold">Teavel-time :  </span>{sport.travel_time}</p>
+                <p className="w-full text-[#333333a7]"><span className="font-semibold">Seasonality : </span>{sport.seasonality}</p>
                 <div className="card-actions"> 
                     <button className="btn btn-primary">View Property</button>
                 </div>
