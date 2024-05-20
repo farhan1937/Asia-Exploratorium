@@ -30,10 +30,10 @@ const Navbar = () => {
                     </div>
                     <ul tabIndex={0} className="menu menu-sm gap-5 dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <NavLink to='/'>Home</NavLink>
-                        <NavLink to='/allTourists'>All Tourists Spot</NavLink>
-                        <NavLink to='/addTourists'>Add Tourists Spot</NavLink>
                         <NavLink to='/about'>About Us</NavLink>
                         <NavLink to='/contact'>Contact</NavLink>
+                        <NavLink to='/allTourists'>All Tourists Spot</NavLink>
+                        <NavLink to='/addTourists'>Add Tourists Spot</NavLink>
                         <NavLink to='/list'>My List</NavLink>
                     </ul>
                 </div>
@@ -43,10 +43,10 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu gap-5 menu-horizontal px-1">
                     <NavLink to='/' className="font-bold">Home</NavLink>
-                    <NavLink to='/allTourists' className="font-bold">All Tourists Spot</NavLink>
-                    <NavLink to='/addTourists' className="font-bold">Add Tourists Spot</NavLink>
                     <NavLink to='/about' className="font-bold">About Us</NavLink>
                     <NavLink to='/contact' className="font-bold">Contact</NavLink>
+                    <NavLink to='/allTourists' className="font-bold">All Tourists Spot</NavLink>
+                    <NavLink to='/addTourists' className="font-bold">Add Tourists Spot</NavLink>
                     <NavLink to='/list' className="font-bold">My List</NavLink>
                 </ul>
             </div>

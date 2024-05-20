@@ -2,6 +2,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
+import Hometwo from './Hometwo';
+import About from '../About us/About';
 
 const Home = () => {
     return (
@@ -36,6 +38,12 @@ const Home = () => {
                         ...
                     </Swiper>
                 </div>
+            </div>
+            <div>
+                <Hometwo></Hometwo>
+            </div>
+            <div id='about'>
+                <About></About>
             </div>
         </div>
     );
