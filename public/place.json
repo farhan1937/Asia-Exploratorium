@@ -123,7 +123,7 @@
         {
           "id": 13,
           "name": "Komodo National Park",
-          "image": "komodo_national_park.jpg",
+          "image": "https://i.ibb.co/wRbKHGp/pink-beach-visit-komodo-national-park-from-bali.webp",
           "average_cost": "$600",
           "total_visitors_per_year": 500000,
           "travel_time": "1 week",
@@ -132,7 +132,7 @@
         {
           "id": 14,
           "name": "Raja Ampat Islands",
-          "image": "raja_ampat_islands.jpg",
+          "image": "https://i.ibb.co/RG8MdKM/RA-Pianemoisland-indtravel.jpg",
           "average_cost": "$700",
           "total_visitors_per_year": 400000,
           "travel_time": "1 week",
@@ -141,7 +141,7 @@
         {
           "id": 15,
           "name": "Yogyakarta",
-          "image": "yogyakarta.jpg",
+          "image": "https://i.ibb.co/3rBGyrM/Borobudur-temple-Indonesia-01.jpg",
           "average_cost": "$350",
           "total_visitors_per_year": 2000000,
           "travel_time": "1 week",
@@ -155,7 +155,7 @@
         {
           "id": 16,
           "name": "Kuala Lumpur",
-          "image": "kuala_lumpur.jpg",
+          "image": "https://i.ibb.co/vLKtkZB/PK1.webp",
           "average_cost": "$450",
           "total_visitors_per_year": 2500000,
           "travel_time": "1 week",
@@ -164,7 +164,7 @@
         {
           "id": 17,
           "name": "Langkawi",
-          "image": "langkawi.jpg",
+          "image": "https://i.ibb.co/Nyy2s0b/34c5c474-36e7-448c-9d40-8eba0517069a.webp",
           "average_cost": "$550",
           "total_visitors_per_year": 1000000,
           "travel_time": "1 week",
@@ -173,7 +173,7 @@
         {
           "id": 18,
           "name": "Penang",
-          "image": "penang.jpg",
+          "image": "https://i.ibb.co/XsT79qq/68287600-buddhisttemplekekloksiinpenangstockimage.jpg",
           "average_cost": "$400",
           "total_visitors_per_year": 1500000,
           "travel_time": "1 week",
@@ -182,7 +182,7 @@
         {
           "id": 19,
           "name": "Cameron Highlands",
-          "image": "cameron_highlands.jpg",
+          "image": "https://i.ibb.co/1rb6z4J/cameron-highlands-trail.jpg",
           "average_cost": "$300",
           "total_visitors_per_year": 800000,
           "travel_time": "5 days",
@@ -191,7 +191,7 @@
         {
           "id": 20,
           "name": "Taman Negara National Park",
-          "image": "taman_negara_national_park.jpg",
+          "image": "https://i.ibb.co/4m4hHQ3/b6.jpg",
           "average_cost": "$350",
           "total_visitors_per_year": 600000,
           "travel_time": "1 week",
@@ -205,7 +205,7 @@
         {
           "id": 21,
           "name": "Ha Long Bay",
-          "image": "ha_long_bay.jpg",
+          "image": "https://i.ibb.co/N3fPw2P/halong-16783543829461323593123.jpg",
           "average_cost": "$400",
           "total_visitors_per_year": 2000000,
           "travel_time": "1 week",
@@ -214,7 +214,7 @@
         {
           "id": 22,
           "name": "Ho Chi Minh City",
-          "image": "ho_chi_minh_city.jpg",
+          "image": "https://i.ibb.co/H4xw3gb/1165791f-ac3a-4956-88c2-3877e2aa0154.jpg",
           "average_cost": "$500",
           "total_visitors_per_year": 1500000,
           "travel_time": "1 week",
@@ -223,7 +223,7 @@
         {
           "id": 23,
           "name": "Hoi An Ancient Town",
-          "image": "hoi_an_ancient_town.jpg",
+          "image": "https://i.ibb.co/rmW2Gjp/11125-Qu-ng-Nam-huybank-gmail-com-hoi-an-ve-dem.jpg",
           "average_cost": "$350",
           "total_visitors_per_year": 1000000,
           "travel_time": "1 week",
@@ -232,7 +232,7 @@
         {
           "id": 24,
           "name": "Phong Nha Caves",
-          "image": "phong_nha_caves.jpg",
+          "image": "https://i.ibb.co/Y325yWW/phong-nha-cave-tour-is-the-best-chance-to-experience-vietnam-nature-saigon-riders.jpg",
           "average_cost": "$300",
           "total_visitors_per_year": 500000,
           "travel_time": "3 days",
@@ -241,7 +241,7 @@
         {
           "id": 25,
           "name": "Mekong Delta",
-          "image": "mekong_delta.jpg",
+          "image": "https://i.ibb.co/mvshtMj/Mekong-delta1.jpg",
           "average_cost": "$200",
           "total_visitors_per_year": 1000000,
           "travel_time": "4 days",
@@ -255,7 +255,7 @@
         {
           "id": 26,
           "name": "Angkor Wat",
-          "image": "angkor_wat.jpg",
+          "image": "https://i.ibb.co/xmydFb8/Getty-Images-640432454.jpg",
           "average_cost": "$400",
           "total_visitors_per_year": 2500000,
           "travel_time": "1 week",
@@ -264,7 +264,7 @@
         {
           "id": 27,
           "name": "Siem Reap",
-          "image": "siem_reap.jpg",
+          "image": "https://i.ibb.co/615Kfjv/expediav2-2378128-dd1c67-973345.jpg",
           "average_cost": "$300",
           "total_visitors_per_year": 1200000,
           "travel_time": "1 week",
@@ -273,7 +273,7 @@
         {
           "id": 28,
           "name": "Phnom Penh",
-          "image": "phnom_penh.jpg",
+          "image": "https://i.ibb.co/FH9yBbX/20171006-093816-01-largejpg.jpg",
           "average_cost": "$250",
           "total_visitors_per_year": 800000,
           "travel_time": "1 week",
@@ -282,7 +282,7 @@
         {
           "id": 29,
           "name": "Kep",
-          "image": "kep.jpg",
+          "image": "https://i.ibb.co/F4vmmmR/new-Kep-Beach.jpg",
           "average_cost": "$200",
           "total_visitors_per_year": 500000,
           "travel_time": "4 days",
@@ -291,7 +291,7 @@
         {
           "id": 30,
           "name": "Bokor National Park",
-          "image": "bokor_national_park.jpg",
+          "image": "https://i.ibb.co/WDZkXQh/bokor-national-park.jpg",
           "average_cost": "$300",
           "total_visitors_per_year": 300000,
           "travel_time": "3 days",
