@@ -118,8 +118,8 @@ const LogIn = () => {
                     }
                     <div className="flex gap-3 justify-center mx-auto border-2 px-4  p-4 rounded-sm border-[#787878]">
 
-                        <button className="flex text-2xl text-center grid " onClick={handleGoogleSignIn}><FcGoogle /> </button>
-                        <span className="text-xl">Continue With Google</span>
+                        <button className="flex items-center text-2xl text-center " onClick={handleGoogleSignIn}><FcGoogle /><span className="text-sm">Continue With Google</span> </button>
+                        
 
 
 

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const AllTouristsSports = ({ cook }) => {
@@ -7,7 +8,8 @@ const {tourist_spots} = cook;
     return (
        <>
         {
-            tourist_spots.map((sport,idx) => <div key={idx} data-aos="zoom-in" className="card bg-base-100 shadow-xl max-w-6xl mx-auto">
+            tourist_spots.map((sport,idx) => 
+                <div key={idx} data-aos="zoom-in" className="card bg-base-100 shadow-xl max-w-6xl mx-auto">
             <figure className="px-4 pt-4">
                 <img src={sport.image} alt="Shoes" className="rounded-xl" />
             </figure>
@@ -19,7 +21,7 @@ const {tourist_spots} = cook;
                 <p className="w-full text-[#333333a7]"><span className="font-semibold">Teavel-time :  </span>{sport.travel_time}</p>
                 <p className="w-full text-[#333333a7]"><span className="font-semibold">Seasonality : </span>{sport.seasonality}</p>
                 <div className="card-actions"> 
-                    <button className="btn btn-primary">View Property</button>
+                   <Link to={`/sportDetails/${sport.id}`}> <button className="btn btn-primary">View Property</button></Link>
                 </div>
             </div>
         </div>)
