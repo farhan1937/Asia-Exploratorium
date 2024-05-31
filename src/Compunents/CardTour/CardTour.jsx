@@ -15,11 +15,21 @@ const CardTour = ({tour}) => {
             confirmButtonText: "Yes, delete it!"
           }).then((result) => {
             if (result.isConfirmed) {
-              Swal.fire({
-                title: "Deleted!",
-                text: "Your file has been deleted.",
-                icon: "success"
-              });
+            
+
+            fetch(`http://localhost:5001/tourists/${_id}`)
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+                if(data.deletedCount > 0){
+                        Swal.fire({
+                            title: "Deleted!",
+                            text: "Your file has been deleted.",
+                            icon: "success"
+                          });
+
+                }
+            })
             }
           });
     }
@@ -29,12 +39,12 @@ const CardTour = ({tour}) => {
 
 
     return (
-        <div>
-            <div className="card card-side bg-base-100 shadow-xl border-2 mb-2 p-3">
+        <div >
+            <div className="card card-side bg-base-100 shadow-xl border-2 mb-2 p-3 ">
                 <figure><img className="w-96 h-96 rounded-lg" src={photo} alt="Movie" /></figure>
                 <div className="card-body">
-                    <h2 className="card-title"><span className="font-semibold">Country Name :</span>{country_Name}</h2>
-                    <h2 className="card-title"><span>Tourists_Sport Name :</span>{name}</h2>
+                    <h2 className=""><span className="font-semibold">Country Name :</span>{country_Name}</h2>
+                    <h2 className="font-semibold"><span>Tourists_Sport Name :</span>{name}</h2>
                     <p><span className="font-semibold">Details :</span>{short_description}</p>
                     <p><span className="font-semibold">Location :</span>{location}</p>
                     <p><span className="font-semibold">Cost :</span>{average_cost}</p>
