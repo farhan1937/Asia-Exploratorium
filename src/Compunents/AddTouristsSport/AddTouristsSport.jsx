@@ -1,3 +1,5 @@
+import Swal from 'sweetalert2'
+
 
 const AddTouristsSport = () => {
 
@@ -21,6 +23,26 @@ const AddTouristsSport = () => {
         const addSport = {photo, name, country_Name, location, short_description, average_cost, seasonality, travel_time, totaVisitorsPerYear, user_name, User_Email}
 
         console.log(addSport);
+
+        fetch('http://localhost:5001/tourists',{
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(addSport)
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+            if(data.insertedId){
+                Swal.fire({
+                    title: 'Success!',
+                    text: 'User added successfully',
+                    icon: 'success',
+                    confirmButtonText: 'Cool'
+                  })
+            }
+        })
     }
     return (
         <div className="bg-[#daf8f9] ">

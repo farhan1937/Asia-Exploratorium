@@ -18,6 +18,7 @@ import TouristsSportDetails from './Compunents/TouristsSportDetails/TouristsSpor
 import Private from './Compunents/Private/Private.jsx';
 import AddTouristsSport from './Compunents/AddTouristsSport/AddTouristsSport.jsx';
 import UpdateTouristsSport from './Compunents/AddTouristsSport/UpdateTouristsSport.jsx';
+import MyList from './Compunents/MyList/MyList.jsx';
 // import { fetchSports } from './Compunents/Roots/loader.js';
 
 const router = createBrowserRouter([
@@ -64,6 +65,11 @@ const router = createBrowserRouter([
       {
         path:'/updateTourists',
         element:<UpdateTouristsSport></UpdateTouristsSport>
+      },
+      {
+        path:'/list',
+        element:<MyList></MyList>,
+        loader: ()=> fetch('http://localhost:5001/tourists')
       }
     ]
   },
