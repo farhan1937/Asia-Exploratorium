@@ -6,7 +6,7 @@ const UpdateTouristsSport = () => {
 
     const { _id, photo, name, country_Name, location, short_description, average_cost, seasonality, travel_time, totaVisitorsPerYear, user_name, User_Email } = sport;
 
-    const handleAddTouristsSport = e => {
+    const handleUpdateTouristsSport = e => {
         e.preventDefault()
 
         const from = e.target;
@@ -23,24 +23,24 @@ const UpdateTouristsSport = () => {
         const User_Email = from.User_Email.value
         const user_name = from.user_name.value
 
-        const addSport = { photo, name, country_Name, location, short_description, average_cost, seasonality, travel_time, totaVisitorsPerYear, user_name, User_Email }
+        const updateSport = { photo, name, country_Name, location, short_description, average_cost, seasonality, travel_time, totaVisitorsPerYear, user_name, User_Email }
 
-        console.log(addSport);
+        console.log(updateSport);
 
-        fetch('http://localhost:5001/tourists', {
-            method: 'POST',
+        fetch(`http://localhost:5001/tourists/${_id}`, {
+            method: 'PUT',
             headers: {
                 'content-type': 'application/json'
             },
-            body: JSON.stringify(addSport)
+            body: JSON.stringify(updateSport)
         })
             .then(res => res.json())
             .then(data => {
                 console.log(data);
-                if (data.insertedId) {
+                if (data.modifiedCount > 0) {
                     Swal.fire({
                         title: 'Success!',
-                        text: 'User added successfully',
+                        text: 'Update successfully',
                         icon: 'success',
                         confirmButtonText: 'Cool'
                     })
@@ -50,7 +50,7 @@ const UpdateTouristsSport = () => {
     return (
         <div className="bg-[#daf8f9] ">
             <h2 className="text-4xl text-center font-semibold">Update Tourists Sport</h2>
-            <form onSubmit={handleAddTouristsSport} className="max-w-7xl mx-auto">
+            <form onSubmit={handleUpdateTouristsSport} className="max-w-7xl mx-auto">
                 {/*from PhotoURL */}
                 <div className="mb-8">
                     <div className="form-control w-full">
@@ -74,7 +74,7 @@ const UpdateTouristsSport = () => {
                         </label>
                         <label className="input-group">
 
-                            <input className="input input-bordered w-full" type="text" name="name" defaultValue={name}placeholder="tourists_spot_name" id="" />
+                            <input className="input input-bordered w-full" type="text" name="name" defaultValue={name} placeholder="tourists_spot_name" id="" />
 
                         </label>
 
@@ -85,8 +85,8 @@ const UpdateTouristsSport = () => {
                         </label>
                         <label className="input-group">
 
-                            <input className="input input-bordered w-full ml-4" type="text" name="country_Name" 
-                            defaultValue={country_Name}placeholder="Available Quality" id="" />
+                            <input className="input input-bordered w-full ml-4" type="text" name="country_Name"
+                                defaultValue={country_Name} placeholder="Available Quality" id="" />
 
                         </label>
 
@@ -136,7 +136,7 @@ const UpdateTouristsSport = () => {
                         </label>
                         <label className="input-group">
 
-                            <input className="input input-bordered w-full ml-4" type="text" name="seasonality" defaultValue={seasonality}placeholder="seasonality" id="" />
+                            <input className="input input-bordered w-full ml-4" type="text" name="seasonality" defaultValue={seasonality} placeholder="seasonality" id="" />
 
                         </label>
 
@@ -193,7 +193,7 @@ const UpdateTouristsSport = () => {
                     </div>
                 </div>
 
-                <input type="submit" value="Add" className="btn btn-block bg-slate-400" />
+                <input type="submit" value="Update" className="btn btn-block bg-slate-400" />
             </form>
         </div>
     );

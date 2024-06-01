@@ -42,14 +42,13 @@ const CardTour = ({ tour }) => {
                 <div className="card-body">
                     <h2><span className="font-semibold">Country Name:</span> {country_Name}</h2>
                     <h2 className="font-semibold"><span>Tourist Spot Name:</span> {name}</h2>
-                    <p><span className="font-semibold">Details:</span> {short_description}</p>
+                 
                     <p><span className="font-semibold">Location:</span> {location}</p>
                     <p><span className="font-semibold">Cost:</span> {average_cost}</p>
                     <p><span className="font-semibold">Season:</span> {seasonality}</p>
                     <p><span className="font-semibold">Travel Time:</span> {travel_time}</p>
-                    <p><span className="font-semibold">Visitors Per Year:</span> {totaVisitorsPerYear}</p>
-                    <p><span className="font-semibold">Your Name:</span> {user_name}</p>
-                    <p><span className="font-semibold">Your Email:</span> {User_Email}</p>
+                    
+                    
 
                     <div className="card-actions justify-center">
                         <button className="btn bg-orange-300">View</button>
