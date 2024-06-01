@@ -59,17 +59,18 @@ const router = createBrowserRouter([
         element: <Private><TouristsSportDetails></TouristsSportDetails></Private>
       },
       {
-        path:'/addTourists',
-        element:<AddTouristsSport></AddTouristsSport>
+        path: '/addTourists',
+        element: <AddTouristsSport></AddTouristsSport>
       },
       {
-        path:'/updateTourists',
-        element:<UpdateTouristsSport></UpdateTouristsSport>
+        path: '/updateTourists/:id',
+        element: <UpdateTouristsSport></UpdateTouristsSport>,
+        loader: ({ params }) => fetch(`http://localhost:5001/tourists/${params.id}`)
       },
       {
-        path:'/list',
-        element:<MyList></MyList>,
-        loader: ()=> fetch('http://localhost:5001/tourists')
+        path: '/list',
+        element: <MyList></MyList>,
+        loader: () => fetch('http://localhost:5001/tourists')
       }
     ]
   },
