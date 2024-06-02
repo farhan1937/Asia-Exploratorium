@@ -124,6 +124,7 @@ const LogIn = () => {
 
 
                     </div>
+                    <Link to='/'><button className=" flex justify-center items-center border-2 mx-auto  p-4 rounded-lg bg-[#abecf3] text-center">Home</button></Link>
                     <p className="text-center py-4 ">New to this website ? Please <Link to='/register'><span className="font-bold text-green-300 underline">Register</span></Link></p>
                 </div>
             </div>

@@ -69,7 +69,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/list',
-        element: <MyList></MyList>,
+        element: <Private><MyList></MyList></Private>,
         loader: () => fetch('http://localhost:5001/tourists')
       }
     ]

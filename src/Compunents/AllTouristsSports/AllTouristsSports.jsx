@@ -1,15 +1,26 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import Aos from "aos";
 
 
 const AllTouristsSports = ({ cook }) => {
     // const { id,  image, name, average_cost, total_visitors_per_year, travel_time, seasonality } = cook;
 console.log(cook);
 const {tourist_spots} = cook;
+useEffect(() => {
+    Aos.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        offset: 200,
+        delay: 100,
+    });
+}, []);
     return (
        <>
         {
             tourist_spots.map((sport,idx) => 
-                <div key={idx} data-aos="zoom-in" className="card bg-base-100 shadow-xl max-w-6xl mx-auto">
+                <div 
+            key={idx} data-aos="zoom-in" className="card bg-base-100 shadow-xl max-w-6xl mx-auto">
             <figure className="px-4 pt-4">
                 <img src={sport.image} alt="Shoes" className="rounded-xl" />
             </figure>
