@@ -7,23 +7,23 @@ const UpdateTouristsSport = () => {
     const { _id, photo, name, country_Name, location, short_description, average_cost, seasonality, travel_time, totaVisitorsPerYear, user_name, User_Email } = sport;
 
     const handleUpdateTouristsSport = e => {
-        e.preventDefault()
+        e.preventDefault();
 
         const from = e.target;
 
-        const photo = from.photo.value
-        const name = from.name.value
-        const country_Name = from.country_Name.value
-        const location = from.location.value
-        const short_description = from.short_description.value
-        const average_cost = from.average_cost.value
-        const seasonality = from.seasonality.value
-        const travel_time = from.travel_time.value
-        const totaVisitorsPerYear = from.totaVisitorsPerYear.value
-        const User_Email = from.User_Email.value
-        const user_name = from.user_name.value
+        const photo = from.photo.value;
+        const name = from.name.value;
+        const country_Name = from.country_Name.value;
+        const location = from.location.value;
+        const short_description = from.short_description.value;
+        const average_cost = from.average_cost.value;
+        const seasonality = from.seasonality.value;
+        const travel_time = from.travel_time.value;
+        const totaVisitorsPerYear = from.totaVisitorsPerYear.value;
+        const User_Email = from.User_Email.value;
+        const user_name = from.user_name.value;
 
-        const updateSport = { photo, name, country_Name, location, short_description, average_cost, seasonality, travel_time, totaVisitorsPerYear, user_name, User_Email }
+        const updateSport = { photo, name, country_Name, location, short_description, average_cost, seasonality, travel_time, totaVisitorsPerYear, user_name, User_Email };
 
         console.log(updateSport);
 
@@ -43,153 +43,119 @@ const UpdateTouristsSport = () => {
                         text: 'Update successfully',
                         icon: 'success',
                         confirmButtonText: 'Cool'
-                    })
+                    });
                 }
-            })
-    }
+            });
+    };
+
     return (
-        <div className="bg-[#daf8f9] ">
+        <div className="bg-[#daf8f9]">
             <h2 className="text-4xl text-center font-semibold">Update Tourists Sport</h2>
             <form onSubmit={handleUpdateTouristsSport} className="max-w-7xl mx-auto">
-                {/*from PhotoURL */}
+                {/* PhotoURL */}
                 <div className="mb-8">
                     <div className="form-control w-full">
                         <label className="label">
                             <span className="label-text">PhotoURL</span>
                         </label>
                         <label className="input-group">
-
                             <input className="input input-bordered w-full" type="text" name="photo" defaultValue={photo} placeholder="PhotoURL" id="" />
-
                         </label>
-
                     </div>
-
                 </div>
-                {/*from name and quantity */}
+                {/* Name and Country Name */}
                 <div className="md:flex mb-8">
                     <div className="form-control md:w-1/2">
                         <label className="label">
-                            <span className="label-text">Tourists spot Name</span>
+                            <span className="label-text">Tourist Spot Name</span>
                         </label>
                         <label className="input-group">
-
-                            <input className="input input-bordered w-full" type="text" name="name" defaultValue={name} placeholder="tourists_spot_name" id="" />
-
+                            <input className="input input-bordered w-full" type="text" name="name" defaultValue={name} placeholder="Tourist Spot Name" id="" />
                         </label>
-
                     </div>
-                    <div className="form-control md:w-1/2 ">
+                    <div className="form-control md:w-1/2 ml-4">
                         <label className="label">
-                            <span className="label-text">country Name</span>
+                            <span className="label-text">Country Name</span>
                         </label>
                         <label className="input-group">
-
-                            <input className="input input-bordered w-full ml-4" type="text" name="country_Name"
-                                defaultValue={country_Name} placeholder="Available Quality" id="" />
-
+                            <input className="input input-bordered w-full" type="text" name="country_Name" defaultValue={country_Name} placeholder="Country Name" id="" />
                         </label>
-
                     </div>
                 </div>
-                {/*from  location and short description */}
+                {/* Location and Short Description */}
                 <div className="md:flex mb-8">
                     <div className="form-control md:w-1/2">
                         <label className="label">
-                            <span className="label-text"> location</span>
+                            <span className="label-text">Location</span>
                         </label>
                         <label className="input-group">
-
-                            <input className="input input-bordered w-full" type=" location" name="location" defaultValue={location} placeholder=" location" id="" />
-
+                            <input className="input input-bordered w-full" type="text" name="location" defaultValue={location} placeholder="Location" id="" />
                         </label>
-
                     </div>
-                    <div className="form-control md:w-1/2 ">
+                    <div className="form-control md:w-1/2 ml-4">
                         <label className="label">
-                            <span className="label-text"></span>
-                        </label>short description
-                        <label className="input-group">
-
-                            <input className="input input-bordered w-full ml-4" type="text" name="short_description" defaultValue={short_description} placeholder="Taste" id="" />
-
+                            <span className="label-text">Short Description</span>
                         </label>
-
+                        <label className="input-group">
+                            <input className="input input-bordered w-full" type="text" name="short_description" defaultValue={short_description} placeholder="Short Description" id="" />
+                        </label>
                     </div>
                 </div>
-                {/*from average_cost and seasonality */}
+                {/* Average Cost and Seasonality */}
                 <div className="md:flex mb-8">
                     <div className="form-control md:w-1/2">
                         <label className="label">
-                            <span className="label-text">Average cost</span>
+                            <span className="label-text">Average Cost</span>
                         </label>
                         <label className="input-group">
-
-                            <input className="input input-bordered w-full" type="text" name="average_cost" defaultValue={average_cost} placeholder="average_cost" id="" />
-
+                            <input className="input input-bordered w-full" type="text" name="average_cost" defaultValue={average_cost} placeholder="Average Cost" id="" />
                         </label>
-
                     </div>
-                    <div className="form-control md:w-1/2 ">
+                    <div className="form-control md:w-1/2 ml-4">
                         <label className="label">
-                            <span className="label-text">seasonality</span>
+                            <span className="label-text">Seasonality</span>
                         </label>
                         <label className="input-group">
-
-                            <input className="input input-bordered w-full ml-4" type="text" name="seasonality" defaultValue={seasonality} placeholder="seasonality" id="" />
-
+                            <input className="input input-bordered w-full" type="text" name="seasonality" defaultValue={seasonality} placeholder="Seasonality" id="" />
                         </label>
-
                     </div>
                 </div>
-                {/*from average_cost and seasonality */}
+                {/* Travel Time and Total Visitors Per Year */}
                 <div className="md:flex mb-8">
                     <div className="form-control md:w-1/2">
                         <label className="label">
-                            <span className="label-text">Travel time</span>
+                            <span className="label-text">Travel Time</span>
                         </label>
                         <label className="input-group">
-
-                            <input className="input input-bordered w-full" type="text" name="travel_time" defaultValue={travel_time} placeholder="travel_time" id="" />
-
+                            <input className="input input-bordered w-full" type="text" name="travel_time" defaultValue={travel_time} placeholder="Travel Time" id="" />
                         </label>
-
                     </div>
-                    <div className="form-control md:w-1/2 ">
+                    <div className="form-control md:w-1/2 ml-4">
                         <label className="label">
-                            <span className="label-text">Tota Visitors PerYear</span>
+                            <span className="label-text">Total Visitors Per Year</span>
                         </label>
                         <label className="input-group">
-
-                            <input className="input input-bordered w-full ml-4" type="text" name="totaVisitorsPerYear" defaultValue={totaVisitorsPerYear} placeholder="totaVisitorsPerYear" id="" />
-
+                            <input className="input input-bordered w-full" type="text" name="totaVisitorsPerYear" defaultValue={totaVisitorsPerYear} placeholder="Total Visitors Per Year" id="" />
                         </label>
-
                     </div>
                 </div>
-                {/*from  User Email and seasonality */}
+                {/* User Email and User Name */}
                 <div className="md:flex mb-8">
                     <div className="form-control md:w-1/2">
                         <label className="label">
-                            <span className="label-text"> User Email</span>
+                            <span className="label-text">User Email</span>
                         </label>
                         <label className="input-group">
-
-                            <input className="input input-bordered w-full" type="email" name="User_Email" defaultValue={User_Email} placeholder=" User-Email" id="" />
-
+                            <input className="input input-bordered w-full" type="email" name="User_Email" defaultValue={User_Email} placeholder="User Email" id="" />
                         </label>
-
                     </div>
-                    <div className="form-control md:w-1/2 ">
+                    <div className="form-control md:w-1/2 ml-4">
                         <label className="label">
                             <span className="label-text">User Name</span>
                         </label>
                         <label className="input-group">
-
-                            <input className="input input-bordered w-full ml-4" type="text" name="user_name" defaultValue={user_name} placeholder="user_name" id="" />
-
+                            <input className="input input-bordered w-full" type="text" name="user_name" defaultValue={user_name} placeholder="User Name" id="" />
                         </label>
-
                     </div>
                 </div>
 
