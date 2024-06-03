@@ -1,16 +1,18 @@
 
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+
+// TODO: Replace the following with your app's Firebase project configuration
+// See: https://firebase.google.com/docs/web/learn-more#config-object
 const firebaseConfig = {
-  apiKey: "AIzaSyDBfEpYFToInn5LlFLQ6uZujSKBSOitkLw",
-  authDomain: "land-listings-6e690.firebaseapp.com",
-  projectId: "land-listings-6e690",
-  storageBucket: "land-listings-6e690.appspot.com",
-  messagingSenderId: "419587035600",
-  appId: "1:419587035600:web:3c400e0c3a8dada915e9d5"
+  // ...
 };
 
-
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
+
+// Initialize Firebase Authentication and get a reference to the service
 const auth = getAuth(app);
+
 export default auth
