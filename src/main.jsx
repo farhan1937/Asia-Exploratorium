@@ -66,12 +66,12 @@ const router = createBrowserRouter([
       {
         path: '/updateTourists/:id',
         element: <UpdateTouristsSport></UpdateTouristsSport>,
-        loader: ({ params }) => fetch(`http://localhost:5001/tourists/${params.id}`)
+        loader: ({ params }) => fetch(`https://asia-explor-server-q4t6ep2pc-farhans-projects-4f0ac41d.vercel.app/tourists/${params.id}`)
       },
       {
         path: '/list',
         element: <Private><MyList></MyList></Private>,
-        loader: () => fetch('http://localhost:5001/tourists')
+        loader: () => fetch('https://asia-explor-server-q4t6ep2pc-farhans-projects-4f0ac41d.vercel.app/tourists')
       },
       {
         path:'/contact',

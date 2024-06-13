@@ -16,3 +16,4 @@ Live link of my Website :
 
 ### Package :
 - AOS Package
+- Slider

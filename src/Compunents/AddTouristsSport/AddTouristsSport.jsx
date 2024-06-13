@@ -24,7 +24,7 @@ const AddTouristsSport = () => {
 
         console.log(addSport);
 
-        fetch('http://localhost:5001/tourists',{
+        fetch('https://asia-explor-server-qjno2xnvl-farhans-projects-4f0ac41d.vercel.app//tourists',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

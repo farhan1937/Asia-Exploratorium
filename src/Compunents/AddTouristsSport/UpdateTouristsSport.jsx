@@ -27,7 +27,7 @@ const UpdateTouristsSport = () => {
 
         console.log(updateSport);
 
-        fetch(`http://localhost:5001/tourists/${_id}`, {
+        fetch(`https://asia-explor-server-q4t6ep2pc-farhans-projects-4f0ac41d.vercel.app/tourists/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
